@@ -1,0 +1,17 @@
+{
+    "name": "Geuneda.Consent",
+    "rootNamespace": "Geuneda.Consent",
+    "references": [
+        "Geuneda.Core",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

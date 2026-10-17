@@ -1,0 +1,16 @@
+{
+  "name": "com.geuneda.consent",
+  "displayName": "Geuneda Consent",
+  "author": "geuneda",
+  "version": "0.1.0",
+  "unity": "2021.3",
+  "license": "MIT",
+  "description": "앱 시작 때 받는 동의를 순서대로 처리합니다. 자사 약관(항목별 버전, 답이 없거나 버전이 바뀐 항목과 거절한 필수 항목만 다시 물음), 광고 동의(UMP 어댑터 com.geuneda.consent.ump), iOS 추적 허용(ATT 어댑터 com.geuneda.consent.att)을 등록한 것만 이 순서로 실행하고, 실패는 결과 코드로 돌려주며, 광고 요청 가능·개인화 광고·추적 허용·약관 동의를 담은 스냅샷을 줍니다. SDK 에 동의 값을 넘기는 것은 게임이 합니다.",
+  "type": "library",
+  "hideInEditor": false,
+  "dependencies": {
+    "com.geuneda.core": "0.4.0",
+    "com.cysharp.unitask": "2.5.10",
+    "com.unity.modules.jsonserialize": "1.0.0"
+  }
+}
